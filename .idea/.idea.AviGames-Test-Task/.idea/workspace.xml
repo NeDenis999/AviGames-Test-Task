@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand />
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="89edb76d-a3e9-4edb-8964-67506ed10113" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/[0] Game/[0] Code/Architecture.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/[0] Game/[0] Code/Architecture/AssetLoader.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/[0] Game/[0] Code/Architecture/AssetLoader.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/[0] Game/[0] Code/Architecture/AssetProvider.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/[0] Game/[0] Code/Architecture/AssetProvider.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/[0] Game/[0] Code/Architecture/GameRules.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/[0] Game/[0] Code/Architecture/GameRules.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/[0] Game/[0] Code/Architecture/ProjectInstaller.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/[0] Game/[0] Code/Architecture/ProjectInstaller.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/[0] Game/[0] Code/Architecture/SaveLoadService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/[0] Game/[0] Code/Architecture/SaveLoadService.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/[0] Game/[0] Code/Architecture/SceneInstaller.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/[0] Game/[0] Code/Architecture/SceneInstaller.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/[0] Game/[0] Code/Extensions/ZenjectExtensions.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/[0] Game/[0] Code/Extensions/ZenjectExtensions.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/[0] Game/[0] Code/Factories/PictureFactory.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/[0] Game/[0] Code/Factories/PictureFactory.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/[0] Game/[0] Code/UI/Animations.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/[0] Game/[0] Code/UI/Animations/MoveToPointAnimation.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/[0] Game/[0] Code/UI/Animations/MoveToPointAnimation.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/[0] Game/[0] Code/UI/Animations/PointingCursorScaleAnimation.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/[0] Game/[0] Code/UI/Animations/PointingCursorScaleAnimation.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/[0] Game/[0] Code/UI/Animations/ScaleAnimation.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/[0] Game/[0] Code/UI/Animations/ScaleAnimation.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/[0] Game/[0] Code/UI/DestroyTimer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/[0] Game/[0] Code/UI/DestroyTimer.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/[0] Game/[0] Code/UI/LevelLabel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/[0] Game/[0] Code/UI/LevelLabel.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/[0] Game/[0] Code/UI/LoseScreen.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/[0] Game/[0] Code/UI/LoseScreen.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/[0] Game/[0] Code/UI/MainScreen.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/[0] Game/[0] Code/UI/MainScreen.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/[0] Game/[0] Code/UI/NextLevelButton.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/[0] Game/[0] Code/UI/NextLevelButton.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/[0] Game/[0] Code/UI/PlugAds.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/[0] Game/[0] Code/UI/PlugAds.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/[0] Game/[0] Code/UI/PlugRestartEvent.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/[0] Game/[0] Code/UI/PlugRestartEvent.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/[0] Game/[0] Code/UI/RestartLevelButton.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/[0] Game/[0] Code/UI/RestartLevelButton.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/[0] Game/[0] Code/UI/ScreensManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/[0] Game/[0] Code/UI/ScreensManager.cs.meta" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/FCC0BBF6-BF4E-430C-91D4-AA05736FC5C6/c7/ba373fb7/TweenSettingsExtensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/[0] Game/[0] Code/Gameplay/Picture.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.addressables@1.21.20/Runtime/ResourceManager/Util/DelayedActionManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.addressables@1.21.20/Runtime/ResourceManager/AsyncOperations/AsyncOperationHandle.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/[0] Game/[0] Code/Gameplay/TimerLabel.cs" />
+        <option value="$PROJECT_DIR$/Assets/[0] Game/[0] Code/Gameplay/RayClick.cs" />
+        <option value="$PROJECT_DIR$/Assets/[0] Game/[0] Code/Gameplay/Difference.cs" />
+        <option value="$PROJECT_DIR$/Assets/[0] Game/[0] Code/Use/DestroyTimer.cs" />
+        <option value="$PROJECT_DIR$/Assets/[0] Game/[0] Code/AssetProvider.cs" />
+        <option value="$PROJECT_DIR$/Assets/[0] Game/[0] Code/EventBus.cs" />
+        <option value="$PROJECT_DIR$/Assets/[0] Game/[0] Code/GameRules.cs" />
+        <option value="$PROJECT_DIR$/Assets/[0] Game/[0] Code/UI/WinScreen.cs" />
+        <option value="$PROJECT_DIR$/Assets/[0] Game/[0] Code/GameData.cs" />
+        <option value="$PROJECT_DIR$/Assets/[0] Game/[0] Code/GameStartup.cs" />
+        <option value="$PROJECT_DIR$/Assets/[0] Game/[0] Code/UI/LevelLavel.cs" />
+        <option value="$PROJECT_DIR$/Assets/[0] Game/[0] Code/UI/ScreensManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/[0] Game/[0] Code/Extensions/ZenjectExtensions.cs" />
+        <option value="$PROJECT_DIR$/Assets/[0] Game/[0] Code/Architecture/AssetProviderInstaller.cs" />
+        <option value="$PROJECT_DIR$/Assets/[0] Game/[0] Code/Factories/MarkerFactory.cs" />
+        <option value="$PROJECT_DIR$/Assets/[0] Game/[0] Code/Gameplay/LoseTimerLabel.cs" />
+        <option value="$PROJECT_DIR$/Assets/[0] Game/[0] Code/UI/NextLevelButton.cs" />
+        <option value="$PROJECT_DIR$/Assets/[0] Game/[0] Code/UI/LoseTimerLabel.cs" />
+        <option value="$PROJECT_DIR$/Assets/[0] Game/[0] Code/Architecture/GameData.cs" />
+        <option value="$PROJECT_DIR$/Assets/[0] Game/[0] Code/Architecture/GameDataContainer.cs" />
+        <option value="$PROJECT_DIR$/Assets/[0] Game/[0] Code/Gameplay/ClickArea.cs" />
+        <option value="$PROJECT_DIR$/Assets/[0] Game/[0] Code/Architecture/SaveLoadService.cs" />
+        <option value="$PROJECT_DIR$/Assets/[0] Game/[0] Code/UI/Transition.cs" />
+        <option value="$PROJECT_DIR$/Assets/[0] Game/[0] Code/UI/ScaleTransition.cs" />
+        <option value="$PROJECT_DIR$/Assets/[0] Game/[0] Code/UI/ScaleAnimation.cs" />
+        <option value="$PROJECT_DIR$/Assets/[0] Game/[0] Code/UI/MoveToPointAnimation.cs" />
+        <option value="$PROJECT_DIR$/Assets/[0] Game/[0] Code/UI/PointingCursorScaleAnimation.cs" />
+        <option value="$PROJECT_DIR$/Assets/[0] Game/[0] Code/UI/Animations/PointingCursorScaleAnimation.cs" />
+        <option value="$PROJECT_DIR$/Assets/[0] Game/[0] Code/Factories/PictureFactory.cs" />
+        <option value="$PROJECT_DIR$/Assets/[0] Game/[0] Code/Architecture/LevelAssetLoader.cs" />
+        <option value="$PROJECT_DIR$/Assets/[0] Game/[0] Code/Architecture/AssetProvider.cs" />
+        <option value="$PROJECT_DIR$/Assets/[0] Game/[0] Code/Architecture/ProjectInstaller.cs" />
+        <option value="$PROJECT_DIR$/Assets/[0] Game/[0] Code/Architecture/GameStartup.cs" />
+        <option value="$PROJECT_DIR$/Assets/[0] Game/[0] Code/Architecture/AssetLoader.cs" />
+        <option value="$PROJECT_DIR$/Assets/[0] Game/[0] Code/UI/Plug.cs" />
+        <option value="$PROJECT_DIR$/Assets/[0] Game/[0] Code/UI/PlugRestartEvent.cs" />
+        <option value="$PROJECT_DIR$/Assets/[0] Game/[0] Code/UI/PlugAds.cs" />
+        <option value="$PROJECT_DIR$/Assets/[0] Game/[0] Code/Architecture/EventBus.cs" />
+        <option value="$PROJECT_DIR$/Assets/[0] Game/[0] Code/Architecture/GameRules.cs" />
+        <option value="$PROJECT_DIR$/Assets/[0] Game/[0] Code/Architecture/SceneInstaller.cs" />
+        <option value="$PROJECT_DIR$/Assets/[0] Game/[0] Code/Extensions/MathfExtensions.cs" />
+        <option value="$PROJECT_DIR$/Assets/[0] Game/[0] Code/Gameplay/Marker.cs" />
+        <option value="$PROJECT_DIR$/Assets/[0] Game/[0] Code/UI/BaseButton.cs" />
+        <option value="$PROJECT_DIR$/Assets/[0] Game/[0] Code/UI/LevelLabel.cs" />
+        <option value="$PROJECT_DIR$/Assets/[0] Game/[0] Code/UI/LoseScreen.cs" />
+        <option value="$PROJECT_DIR$/Assets/[0] Game/[0] Code/UI/MainScreen.cs" />
+        <option value="$PROJECT_DIR$/Assets/[0] Game/[0] Code/UI/RestartLevelButton.cs" />
+        <option value="$PROJECT_DIR$/Assets/[0] Game/[0] Code/UI/VolumeSlider.cs" />
+        <option value="$PROJECT_DIR$/Assets/[0] Game/[0] Code/Gameplay/Level.cs" />
+        <option value="$PROJECT_DIR$/Assets/[0] Game/[0] Code/Gameplay/Picture.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="2eJECUxaM4lFQwofHVICFCFXay1" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.34991798" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.300164" />
+    <property name="Discover.Launch.Via.Unity" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="selectedOptions">
+        <set />
+      </option>
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="selectedOptions">
+        <set />
+      </option>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="89edb76d-a3e9-4edb-8964-67506ed10113" name="Default Changelist" comment="" />
+      <created>1711614154676</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1711614154676</updated>
+      <workItem from="1711614157738" duration="2278000" />
+      <workItem from="1711628290861" duration="5306000" />
+      <workItem from="1711690602449" duration="14429000" />
+      <workItem from="1711710917886" duration="4688000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="472" height="464" key="DebuggerActiveHint" timestamp="1711635707117">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="472" height="464" key="DebuggerActiveHint/0.0.1920.1032@0.0.1920.1032" timestamp="1711635707117" />
+    <state width="1860" height="368" key="GridCell.Tab.0.bottom" timestamp="1711636368785">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1860" height="368" key="GridCell.Tab.0.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1711636368785" />
+    <state width="1860" height="368" key="GridCell.Tab.0.center" timestamp="1711636368784">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1860" height="368" key="GridCell.Tab.0.center/0.0.1920.1032@0.0.1920.1032" timestamp="1711636368784" />
+    <state width="1860" height="368" key="GridCell.Tab.0.left" timestamp="1711636368784">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1860" height="368" key="GridCell.Tab.0.left/0.0.1920.1032@0.0.1920.1032" timestamp="1711636368784" />
+    <state width="1860" height="368" key="GridCell.Tab.0.right" timestamp="1711636368784">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1860" height="368" key="GridCell.Tab.0.right/0.0.1920.1032@0.0.1920.1032" timestamp="1711636368784" />
+    <state width="1860" height="368" key="GridCell.Tab.1.bottom" timestamp="1711636368785">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1860" height="368" key="GridCell.Tab.1.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1711636368785" />
+    <state width="1860" height="368" key="GridCell.Tab.1.center" timestamp="1711636368785">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1860" height="368" key="GridCell.Tab.1.center/0.0.1920.1032@0.0.1920.1032" timestamp="1711636368785" />
+    <state width="1860" height="368" key="GridCell.Tab.1.left" timestamp="1711636368785">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1860" height="368" key="GridCell.Tab.1.left/0.0.1920.1032@0.0.1920.1032" timestamp="1711636368785" />
+    <state width="1860" height="368" key="GridCell.Tab.1.right" timestamp="1711636368785">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1860" height="368" key="GridCell.Tab.1.right/0.0.1920.1032@0.0.1920.1032" timestamp="1711636368785" />
+    <state width="1860" height="368" key="GridCell.Tab.2.bottom" timestamp="1711636368785">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1860" height="368" key="GridCell.Tab.2.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1711636368785" />
+    <state width="1860" height="368" key="GridCell.Tab.2.center" timestamp="1711636368785">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1860" height="368" key="GridCell.Tab.2.center/0.0.1920.1032@0.0.1920.1032" timestamp="1711636368785" />
+    <state width="1860" height="368" key="GridCell.Tab.2.left" timestamp="1711636368785">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1860" height="368" key="GridCell.Tab.2.left/0.0.1920.1032@0.0.1920.1032" timestamp="1711636368785" />
+    <state width="1860" height="368" key="GridCell.Tab.2.right" timestamp="1711636368785">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1860" height="368" key="GridCell.Tab.2.right/0.0.1920.1032@0.0.1920.1032" timestamp="1711636368785" />
+    <state width="1860" height="368" key="GridCell.Tab.3.bottom" timestamp="1711636368785">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1860" height="368" key="GridCell.Tab.3.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1711636368785" />
+    <state width="1860" height="368" key="GridCell.Tab.3.center" timestamp="1711636368785">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1860" height="368" key="GridCell.Tab.3.center/0.0.1920.1032@0.0.1920.1032" timestamp="1711636368785" />
+    <state width="1860" height="368" key="GridCell.Tab.3.left" timestamp="1711636368785">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1860" height="368" key="GridCell.Tab.3.left/0.0.1920.1032@0.0.1920.1032" timestamp="1711636368785" />
+    <state width="1860" height="368" key="GridCell.Tab.3.right" timestamp="1711636368785">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1860" height="368" key="GridCell.Tab.3.right/0.0.1920.1032@0.0.1920.1032" timestamp="1711636368785" />
+    <state x="776" y="217" key="RiderGenerateDialog" timestamp="1711707567676">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="776" y="217" key="RiderGenerateDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1711707567676" />
+  </component>
+</project>

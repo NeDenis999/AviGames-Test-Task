@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6510307a32d412fac0e446ce9453fb7, type: 3}
+  m_Name: AssetProvider
+  m_EditorClassIdentifier: 
+  Picture: {fileID: 4903151773485364716, guid: 36b4732b2cbdb264fba1bf81d5e975cb, type: 3}
+  Mixer: {fileID: 0}
+  ClickTrueEffect: {fileID: 3223031359271505891, guid: 155410a7086d1d34ca48c448dfc33156, type: 3}
+  ClickFalseEffect: {fileID: 8915500580573861359, guid: 9d11447644b0e0842a7edb034fe1ac72, type: 3}
+  GameSceneIndex: 0
+  StartLoseTime: 120
+  Maker: {fileID: -1641122132128221193, guid: 39b622991257f8d46a0fa33113e300b8, type: 3}
