@@ -7,24 +7,33 @@ namespace Game
     {
         [Header("Factories")]
         [SerializeField]
-        private MarkerFactory _markerFactory;
-        
-        [SerializeField]
         private PictureFactory _pictureFactory;
 
+        [SerializeField]
+        private MarkerFactory _markerFactory;
+        
+        [Header("Spawners")]
+        [SerializeField]
+        private PictureSpawner _pictureSpawner;
+        
+        [SerializeField]
+        private MarkerSpawner _markerSpawner;
+        
         [Space]
         [SerializeField]
         private ScreensManager _screensManager;
         
         [SerializeField]
-        private GameStartup _gameStartup;
+        private Bootstrap bootstrap;
         
         public override void InstallBindings()
         {
-            this.Bind(_markerFactory, Container);
             this.Bind(_pictureFactory, Container);
+            this.Bind(_markerFactory, Container);
+            this.Bind(_pictureSpawner, Container);
+            this.Bind(_markerSpawner, Container);
             this.Bind(_screensManager, Container);
-            this.Bind(_gameStartup, Container);
+            this.Bind(bootstrap, Container);
         }
     }
 }

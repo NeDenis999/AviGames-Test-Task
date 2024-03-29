@@ -13,16 +13,18 @@ namespace Game
 
         protected override void OnClick()
         {
-            AppMetrica.Instance.ReportEvent(EventName);
-            FindObjectOfType<PlugRestartEvent>(true).Show();
-            
-            SceneManager.LoadScene(assetProvider.GameSceneIndex);
+#if UNITY_EDITOR
+            AppMetrica.Instance.ReportEvent(EventName);  
             
             if(Appodeal.isLoaded(Appodeal.INTERSTITIAL))
             {
                 Appodeal.show(Appodeal.INTERSTITIAL);
-                FindObjectOfType<PlugAds>(true).Show();
             }
+#endif
+            
+            FindObjectOfType<PlugRestartEvent>(true).Show();
+            FindObjectOfType<PlugAds>(true).Show();
+            SceneManager.LoadScene(assetProvider.GameSceneIndex);
         }
     }
 }

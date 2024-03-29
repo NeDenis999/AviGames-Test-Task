@@ -1,4 +1,7 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using System.Collections.Generic;
+using System.Linq;
+using UnityEngine;
 using UnityEngine.AddressableAssets;
 using UnityEngine.ResourceManagement.AsyncOperations;
 using Zenject;
@@ -8,28 +11,30 @@ namespace Game
     public class AssetLoader : MonoBehaviour
     {
         [SerializeField]
-        private AssetReferenceGameObject _level1;
+        private List<string> _levels;
         
         [Inject]
         private AssetProvider _assetProvider;
-
-        public bool IsComplete;
-
-        public void Load()
+        
+        public IEnumerator AwaitLoad()
         {
-            if (!_level1.IsValid())
-                _level1.LoadAssetAsync().Completed += OnLevel1Loaded;
-        }
+            AsyncOperationHandle<IList<GameObject>> loadWithMultipleKeys =
+                Addressables.LoadAssetsAsync<GameObject>(_levels,
+                    obj => { }, 
+                    Addressables.MergeMode.Union);
+            yield return loadWithMultipleKeys;
 
-        private void OnLevel1Loaded(AsyncOperationHandle<GameObject> value)
-        {
-            if (value.Status == AsyncOperationStatus.Succeeded)
+            if (loadWithMultipleKeys.Status == AsyncOperationStatus.Succeeded)
             {
-                _assetProvider.Picture = value.Result.GetComponent<Picture>();
-                IsComplete = true;
+                _assetProvider.Levels = loadWithMultipleKeys.Result
+                    .Where(x => x != null && x.GetComponent<Picture>() != null)
+                    .Select(x => x.GetComponent<Picture>())
+                    .ToList();
             }
             else
-                Debug.LogError("Loading Failed");
+            {
+                Debug.LogError("Failed to load assets with multiple keys.");
+            }
         }
     }
 }

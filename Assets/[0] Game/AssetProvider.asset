@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6510307a32d412fac0e446ce9453fb7, type: 3}
   m_Name: AssetProvider
   m_EditorClassIdentifier: 
-  Picture: {fileID: 4903151773485364716, guid: 36b4732b2cbdb264fba1bf81d5e975cb, type: 3}
+  Levels: []
   Mixer: {fileID: 0}
   ClickTrueEffect: {fileID: 3223031359271505891, guid: 155410a7086d1d34ca48c448dfc33156, type: 3}
   ClickFalseEffect: {fileID: 8915500580573861359, guid: 9d11447644b0e0842a7edb034fe1ac72, type: 3}

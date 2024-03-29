@@ -37,8 +37,8 @@ namespace Game
         [ContextMenu("Победить")]
         private void Win()
         {
-            _screensManager.MainScreen.gameObject.SetActive(false);
-            _screensManager.WinScreen.Show();
+            _screensManager.HideScreen(ScreenType.Main);
+            _screensManager.ShowScreen(ScreenType.Win);
                 
             _gameDataContainer.GameData.Level++;
             _saveLoadService.Save();
@@ -47,8 +47,8 @@ namespace Game
         [ContextMenu("Проиграть")]
         private void OnLose()
         {
-            _screensManager.MainScreen.gameObject.SetActive(false);
-            _screensManager.LoseScreen.gameObject.SetActive(true);
+            _screensManager.HideScreen(ScreenType.Main);
+            _screensManager.ShowScreen(ScreenType.Lose);
         }
     }
 }

@@ -5,15 +5,15 @@ namespace Game
 {
     public class MarkerFactory : MonoBehaviour
     {
+        [SerializeField]
+        private RectTransform _container;
+
         [Inject]
         private AssetProvider _assetProvider;
 
-        [SerializeField]
-        private RectTransform _container;
-        
-        public Marker Spawn(Vector3 position)
+        public Marker Create()
         {
-            return Instantiate(_assetProvider.Maker, position, Quaternion.identity,_container);
+            return Instantiate(_assetProvider.Maker, _container);
         }
     }
 }

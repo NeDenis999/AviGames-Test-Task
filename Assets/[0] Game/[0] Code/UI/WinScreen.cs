@@ -1,12 +1,4 @@
-﻿using UnityEngine;
-
-namespace Game
+﻿namespace Game
 {
-    public class WinScreen : MonoBehaviour
-    {
-        public void Show()
-        {
-            gameObject.SetActive(true);
-        }
-    }
+    public class WinScreen : ScreenBase { }
 }

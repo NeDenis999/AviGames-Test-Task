@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System.Collections.Generic;
+using UnityEngine;
 using UnityEngine.Audio;
 using Zenject;
 
@@ -7,7 +8,7 @@ namespace Game
     [CreateAssetMenu(fileName = "AssetProvider", menuName = "Configs/AssetProvider", order = 30)]
     public class AssetProvider : ScriptableObjectInstaller<AssetProvider>
     {
-        public Picture Picture;
+        public List<Picture> Levels;
         public AudioMixerGroup Mixer;
         public GameObject ClickTrueEffect;
         public GameObject ClickFalseEffect;

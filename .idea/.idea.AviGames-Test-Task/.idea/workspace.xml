@@ -6,48 +6,51 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="89edb76d-a3e9-4edb-8964-67506ed10113" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/[0] Game/[0] Code/Architecture.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/[0] Game/[0] Code/Architecture/AssetLoader.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/[0] Game/[0] Code/Architecture/AssetLoader.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/[0] Game/[0] Code/Architecture/AssetProvider.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/[0] Game/[0] Code/Architecture/AssetProvider.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/[0] Game/[0] Code/Architecture/GameRules.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/[0] Game/[0] Code/Architecture/GameRules.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/[0] Game/[0] Code/Architecture/ProjectInstaller.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/[0] Game/[0] Code/Architecture/ProjectInstaller.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/[0] Game/[0] Code/Architecture/SaveLoadService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/[0] Game/[0] Code/Architecture/SaveLoadService.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/[0] Game/[0] Code/Architecture/SceneInstaller.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/[0] Game/[0] Code/Architecture/SceneInstaller.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/[0] Game/[0] Code/Extensions/ZenjectExtensions.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/[0] Game/[0] Code/Extensions/ZenjectExtensions.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/[0] Game/[0] Code/Factories/PictureFactory.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/[0] Game/[0] Code/Factories/PictureFactory.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/[0] Game/[0] Code/UI/Animations.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/[0] Game/[0] Code/UI/Animations/MoveToPointAnimation.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/[0] Game/[0] Code/UI/Animations/MoveToPointAnimation.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/[0] Game/[0] Code/UI/Animations/PointingCursorScaleAnimation.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/[0] Game/[0] Code/UI/Animations/PointingCursorScaleAnimation.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/[0] Game/[0] Code/UI/Animations/ScaleAnimation.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/[0] Game/[0] Code/UI/Animations/ScaleAnimation.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/[0] Game/[0] Code/UI/DestroyTimer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/[0] Game/[0] Code/UI/DestroyTimer.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/[0] Game/[0] Code/UI/LevelLabel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/[0] Game/[0] Code/UI/LevelLabel.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/[0] Game/[0] Code/UI/LoseScreen.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/[0] Game/[0] Code/UI/LoseScreen.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/[0] Game/[0] Code/UI/MainScreen.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/[0] Game/[0] Code/UI/MainScreen.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/[0] Game/[0] Code/UI/NextLevelButton.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/[0] Game/[0] Code/UI/NextLevelButton.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/[0] Game/[0] Code/UI/PlugAds.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/[0] Game/[0] Code/UI/PlugAds.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/[0] Game/[0] Code/UI/PlugRestartEvent.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/[0] Game/[0] Code/UI/PlugRestartEvent.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/[0] Game/[0] Code/UI/RestartLevelButton.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/[0] Game/[0] Code/UI/RestartLevelButton.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/[0] Game/[0] Code/UI/ScreensManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/[0] Game/[0] Code/UI/ScreensManager.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/[0] Game/[0] Code/Extensions/SerializablePair.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/[0] Game/[0] Code/Extensions/SerializablePair.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/[0] Game/[0] Code/Factories/MarkerSpawner.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/[0] Game/[0] Code/Factories/MarkerSpawner.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/[0] Game/[0] Code/Factories/PictureSpawner.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/[0] Game/[0] Code/Factories/PictureSpawner.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/[0] Game/[0] Code/UI/ScreenBase.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/[0] Game/[0] Code/UI/ScreenBase.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/[0] Game/[0] Code/UI/ScreenType.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/[0] Game/[0] Code/UI/ScreenType.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.AviGames-Test-Task/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AviGames-Test-Task/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.AviGames-Test-Task/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AviGames-Test-Task/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.AviGames-Test-Task/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AviGames-Test-Task/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AddressableAssetsData/AddressableAssetSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AddressableAssetsData/AddressableAssetSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AddressableAssetsData/AssetGroups/Default Local Group.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AddressableAssetsData/AssetGroups/Default Local Group.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AddressableAssetsData/link.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AddressableAssetsData/link.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Appodeal/Editor/InternalResources/AppodealSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Appodeal/Editor/InternalResources/AppodealSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PlayServicesResolver/Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/gradleTemplate.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/gradleTemplate.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/gradleTemplate.properties.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/gradleTemplate.properties.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/mainTemplate.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/mainTemplate.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/mainTemplate.gradle.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/mainTemplate.gradle.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/settingsTemplate.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/settingsTemplate.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/settingsTemplate.gradle.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/settingsTemplate.gradle.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/[0] Game/AssetProvider.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/[0] Game/AssetProvider.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/[0] Game/Resources/Level 1.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/[0] Game/Resources/Level 1.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/[0] Game/Resources/ProjectContext.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/[0] Game/Resources/ProjectContext.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/[0] Game/Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/[0] Game/Scenes/Game.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/[0] Game/[0] Code/Architecture/AssetLoader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/[0] Game/[0] Code/Architecture/AssetLoader.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/[0] Game/[0] Code/Architecture/AssetProvider.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/[0] Game/[0] Code/Architecture/AssetProvider.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/[0] Game/[0] Code/Architecture/GameRules.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/[0] Game/[0] Code/Architecture/GameRules.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/[0] Game/[0] Code/Architecture/GameStartup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/[0] Game/[0] Code/Architecture/Bootstrap.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/[0] Game/[0] Code/Architecture/GameStartup.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/[0] Game/[0] Code/Architecture/Bootstrap.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/[0] Game/[0] Code/Architecture/SceneInstaller.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/[0] Game/[0] Code/Architecture/SceneInstaller.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/[0] Game/[0] Code/Factories/MarkerFactory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/[0] Game/[0] Code/Factories/MarkerFactory.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/[0] Game/[0] Code/Factories/MarkerFactory.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/[0] Game/[0] Code/Factories/MarkerFactory.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/[0] Game/[0] Code/Factories/PictureFactory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/[0] Game/[0] Code/Factories/PictureFactory.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/[0] Game/[0] Code/Gameplay/ClickArea.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/[0] Game/[0] Code/Gameplay/ClickArea.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/[0] Game/[0] Code/UI/LoseScreen.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/[0] Game/[0] Code/UI/LoseScreen.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/[0] Game/[0] Code/UI/MainScreen.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/[0] Game/[0] Code/UI/MainScreen.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/[0] Game/[0] Code/UI/RestartLevelButton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/[0] Game/[0] Code/UI/RestartLevelButton.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/[0] Game/[0] Code/UI/ScreensManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/[0] Game/[0] Code/UI/ScreensManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/[0] Game/[0] Code/UI/WinScreen.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/[0] Game/[0] Code/UI/WinScreen.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +61,8 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.addressables@1.21.20/Runtime/ResourceManager/Util/MonoBehaviourCallbackHooks.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.addressables@1.21.20/Runtime/AddressablesImpl.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/FCC0BBF6-BF4E-430C-91D4-AA05736FC5C6/c7/ba373fb7/TweenSettingsExtensions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/[0] Game/[0] Code/Gameplay/Picture.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.addressables@1.21.20/Runtime/ResourceManager/Util/DelayedActionManager.cs" root0="SKIP_HIGHLIGHTING" />
@@ -66,27 +71,18 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/[0] Game/[0] Code/Gameplay/TimerLabel.cs" />
-        <option value="$PROJECT_DIR$/Assets/[0] Game/[0] Code/Gameplay/RayClick.cs" />
-        <option value="$PROJECT_DIR$/Assets/[0] Game/[0] Code/Gameplay/Difference.cs" />
-        <option value="$PROJECT_DIR$/Assets/[0] Game/[0] Code/Use/DestroyTimer.cs" />
-        <option value="$PROJECT_DIR$/Assets/[0] Game/[0] Code/AssetProvider.cs" />
         <option value="$PROJECT_DIR$/Assets/[0] Game/[0] Code/EventBus.cs" />
         <option value="$PROJECT_DIR$/Assets/[0] Game/[0] Code/GameRules.cs" />
-        <option value="$PROJECT_DIR$/Assets/[0] Game/[0] Code/UI/WinScreen.cs" />
         <option value="$PROJECT_DIR$/Assets/[0] Game/[0] Code/GameData.cs" />
         <option value="$PROJECT_DIR$/Assets/[0] Game/[0] Code/GameStartup.cs" />
         <option value="$PROJECT_DIR$/Assets/[0] Game/[0] Code/UI/LevelLavel.cs" />
-        <option value="$PROJECT_DIR$/Assets/[0] Game/[0] Code/UI/ScreensManager.cs" />
         <option value="$PROJECT_DIR$/Assets/[0] Game/[0] Code/Extensions/ZenjectExtensions.cs" />
         <option value="$PROJECT_DIR$/Assets/[0] Game/[0] Code/Architecture/AssetProviderInstaller.cs" />
-        <option value="$PROJECT_DIR$/Assets/[0] Game/[0] Code/Factories/MarkerFactory.cs" />
         <option value="$PROJECT_DIR$/Assets/[0] Game/[0] Code/Gameplay/LoseTimerLabel.cs" />
         <option value="$PROJECT_DIR$/Assets/[0] Game/[0] Code/UI/NextLevelButton.cs" />
         <option value="$PROJECT_DIR$/Assets/[0] Game/[0] Code/UI/LoseTimerLabel.cs" />
         <option value="$PROJECT_DIR$/Assets/[0] Game/[0] Code/Architecture/GameData.cs" />
         <option value="$PROJECT_DIR$/Assets/[0] Game/[0] Code/Architecture/GameDataContainer.cs" />
-        <option value="$PROJECT_DIR$/Assets/[0] Game/[0] Code/Gameplay/ClickArea.cs" />
         <option value="$PROJECT_DIR$/Assets/[0] Game/[0] Code/Architecture/SaveLoadService.cs" />
         <option value="$PROJECT_DIR$/Assets/[0] Game/[0] Code/UI/Transition.cs" />
         <option value="$PROJECT_DIR$/Assets/[0] Game/[0] Code/UI/ScaleTransition.cs" />
@@ -94,28 +90,38 @@
         <option value="$PROJECT_DIR$/Assets/[0] Game/[0] Code/UI/MoveToPointAnimation.cs" />
         <option value="$PROJECT_DIR$/Assets/[0] Game/[0] Code/UI/PointingCursorScaleAnimation.cs" />
         <option value="$PROJECT_DIR$/Assets/[0] Game/[0] Code/UI/Animations/PointingCursorScaleAnimation.cs" />
-        <option value="$PROJECT_DIR$/Assets/[0] Game/[0] Code/Factories/PictureFactory.cs" />
         <option value="$PROJECT_DIR$/Assets/[0] Game/[0] Code/Architecture/LevelAssetLoader.cs" />
-        <option value="$PROJECT_DIR$/Assets/[0] Game/[0] Code/Architecture/AssetProvider.cs" />
         <option value="$PROJECT_DIR$/Assets/[0] Game/[0] Code/Architecture/ProjectInstaller.cs" />
         <option value="$PROJECT_DIR$/Assets/[0] Game/[0] Code/Architecture/GameStartup.cs" />
-        <option value="$PROJECT_DIR$/Assets/[0] Game/[0] Code/Architecture/AssetLoader.cs" />
         <option value="$PROJECT_DIR$/Assets/[0] Game/[0] Code/UI/Plug.cs" />
         <option value="$PROJECT_DIR$/Assets/[0] Game/[0] Code/UI/PlugRestartEvent.cs" />
         <option value="$PROJECT_DIR$/Assets/[0] Game/[0] Code/UI/PlugAds.cs" />
         <option value="$PROJECT_DIR$/Assets/[0] Game/[0] Code/Architecture/EventBus.cs" />
-        <option value="$PROJECT_DIR$/Assets/[0] Game/[0] Code/Architecture/GameRules.cs" />
-        <option value="$PROJECT_DIR$/Assets/[0] Game/[0] Code/Architecture/SceneInstaller.cs" />
         <option value="$PROJECT_DIR$/Assets/[0] Game/[0] Code/Extensions/MathfExtensions.cs" />
         <option value="$PROJECT_DIR$/Assets/[0] Game/[0] Code/Gameplay/Marker.cs" />
         <option value="$PROJECT_DIR$/Assets/[0] Game/[0] Code/UI/BaseButton.cs" />
         <option value="$PROJECT_DIR$/Assets/[0] Game/[0] Code/UI/LevelLabel.cs" />
-        <option value="$PROJECT_DIR$/Assets/[0] Game/[0] Code/UI/LoseScreen.cs" />
-        <option value="$PROJECT_DIR$/Assets/[0] Game/[0] Code/UI/MainScreen.cs" />
-        <option value="$PROJECT_DIR$/Assets/[0] Game/[0] Code/UI/RestartLevelButton.cs" />
         <option value="$PROJECT_DIR$/Assets/[0] Game/[0] Code/UI/VolumeSlider.cs" />
         <option value="$PROJECT_DIR$/Assets/[0] Game/[0] Code/Gameplay/Level.cs" />
         <option value="$PROJECT_DIR$/Assets/[0] Game/[0] Code/Gameplay/Picture.cs" />
+        <option value="$PROJECT_DIR$/Assets/[0] Game/[0] Code/Architecture/AssetProvider.cs" />
+        <option value="$PROJECT_DIR$/Assets/[0] Game/[0] Code/Factories/PictureFactory.cs" />
+        <option value="$PROJECT_DIR$/Assets/[0] Game/[0] Code/Factories/MarkerSpawner.cs" />
+        <option value="$PROJECT_DIR$/Assets/[0] Game/[0] Code/Architecture/SceneInstaller.cs" />
+        <option value="$PROJECT_DIR$/Assets/[0] Game/[0] Code/Gameplay/ClickArea.cs" />
+        <option value="$PROJECT_DIR$/Assets/[0] Game/[0] Code/Factories/MarkerFactory.cs" />
+        <option value="$PROJECT_DIR$/Assets/[0] Game/[0] Code/Factories/PictureSpawner.cs" />
+        <option value="$PROJECT_DIR$/Assets/[0] Game/[0] Code/Architecture/AssetLoader.cs" />
+        <option value="$PROJECT_DIR$/Assets/[0] Game/[0] Code/UI/RestartLevelButton.cs" />
+        <option value="$PROJECT_DIR$/Assets/[0] Game/[0] Code/UI/ScreenType.cs" />
+        <option value="$PROJECT_DIR$/Assets/[0] Game/[0] Code/UI/WinScreen.cs" />
+        <option value="$PROJECT_DIR$/Assets/[0] Game/[0] Code/UI/ScreenBase.cs" />
+        <option value="$PROJECT_DIR$/Assets/[0] Game/[0] Code/Architecture/GameRules.cs" />
+        <option value="$PROJECT_DIR$/Assets/[0] Game/[0] Code/Extensions/SerializablePair.cs" />
+        <option value="$PROJECT_DIR$/Assets/[0] Game/[0] Code/UI/ScreensManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/[0] Game/[0] Code/UI/LoseScreen.cs" />
+        <option value="$PROJECT_DIR$/Assets/[0] Game/[0] Code/UI/MainScreen.cs" />
+        <option value="$PROJECT_DIR$/Assets/[0] Game/[0] Code/Architecture/Bootstrap.cs" />
       </list>
     </option>
   </component>
@@ -167,6 +173,7 @@
       <workItem from="1711628290861" duration="5306000" />
       <workItem from="1711690602449" duration="14429000" />
       <workItem from="1711710917886" duration="4688000" />
+      <workItem from="1711717905733" duration="5358000" />
     </task>
     <servers />
   </component>
@@ -263,5 +270,9 @@
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="776" y="217" key="RiderGenerateDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1711707567676" />
+    <state x="637" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1711722926962">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="637" y="227" width="672" height="678" key="search.everywhere.popup/0.0.1920.1032@0.0.1920.1032" timestamp="1711722926962" />
   </component>
 </project>

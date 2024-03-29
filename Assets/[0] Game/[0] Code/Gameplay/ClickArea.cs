@@ -6,14 +6,17 @@ namespace Game
 {
     public class ClickArea : MonoBehaviour, IPointerClickHandler
     {
-        [Inject] 
-        private MarkerFactory _markerFactory;
-
-        [Inject]
-        private AssetProvider assetProvider;
-
-        [Inject]
+        private MarkerSpawner _markerSpawner;
+        private AssetProvider _assetProvider;
         private GameDataContainer _gameDataContainer;
+
+        [Inject]
+        private void Construct(MarkerSpawner markerSpawner, AssetProvider assetProvider, GameDataContainer gameDataContainer)
+        {
+            _markerSpawner = markerSpawner;
+            _assetProvider = assetProvider;
+            _gameDataContainer = gameDataContainer;
+        }
         
         public void OnPointerClick(PointerEventData eventData)
         {
@@ -24,17 +27,17 @@ namespace Game
             {
                 if (difference.TryClick())
                 {
-                    _markerFactory.Spawn(Camera.main.WorldToScreenPoint(difference.transform.position));
-                    _markerFactory.Spawn(Camera.main.WorldToScreenPoint(difference.Pair.transform.position));
+                    _markerSpawner.Spawn(Camera.main.WorldToScreenPoint(difference.transform.position));
+                    _markerSpawner.Spawn(Camera.main.WorldToScreenPoint(difference.Pair.transform.position));
 
-                    Instantiate(assetProvider.ClickTrueEffect, mousePosition, Quaternion.identity);
+                    Instantiate(_assetProvider.ClickTrueEffect, mousePosition, Quaternion.identity);
                     _gameDataContainer.GameData.Difference++;
                     EventBus.DifferenceUpgrade?.Invoke(_gameDataContainer.GameData.Difference, _gameDataContainer.GameData.StartDifference);
                 }
             }
             else
             {
-                Instantiate(assetProvider.ClickFalseEffect, mousePosition, Quaternion.identity);
+                Instantiate(_assetProvider.ClickFalseEffect, mousePosition, Quaternion.identity);
             }
         }
     }

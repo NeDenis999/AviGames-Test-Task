@@ -1,6 +1,4 @@
-﻿using UnityEngine;
-
-namespace Game
+﻿namespace Game
 {
-    public class LoseScreen : MonoBehaviour { }
+    public class LoseScreen : ScreenBase { }
 }
